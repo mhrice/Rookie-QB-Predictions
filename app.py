@@ -1,6 +1,8 @@
 from fastai.tabular.all import *
 import gradio as gr
-
+import pathlib
+plt = platform.system()
+if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 # path = Path()
 df = pd.read_csv("rookie_year.csv")
 learn = load_learner("export.pkl")
