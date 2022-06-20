@@ -6,6 +6,7 @@ if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 # path = Path()
 df = pd.read_csv("rookie_year.csv")
 learn = load_learner("export.pkl")
+columns = ["Name", "G", "GS", "Cmp", "Att", "Yds", "Cmp%", "TD", "Int", "Y/G", "Sk"]
 
 def predict2(data):
     row = data.drop("Name", axis=1).astype(float)
