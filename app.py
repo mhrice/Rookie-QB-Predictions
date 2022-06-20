@@ -19,7 +19,7 @@ def predict(data):
     return row[columns], prediction
 
 demo = gr.Interface(fn=predict, 
-                    inputs="text", 
+                    inputs=gr.Textbox(label="QB Name"), 
                     outputs=[
                         gr.Dataframe(row_count=1, col_count=11, headers=columns, label="Rookie Year Stats"), 
                         gr.Textbox(label="Prediction")
