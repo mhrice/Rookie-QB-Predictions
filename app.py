@@ -24,7 +24,7 @@ demo = gr.Interface(fn=predict,
                     ],
                     title="Rookie QB Career Prediction (Name)",
                     description="Given Name of QB who has played in the NFL, predict their career tier. Uses data from https:\/\/www.pro-football-reference.com. Tiers based on PFR Approximate Value.",
-                    article="See more details at https://github.com/mhrice/Rookie-QB-Predictions"
+                    article="See more details at https://github.com/mhrice/Rookie-QB-Predictions",
                     examples=["Tom Brady", "Joe Burrow", "Trevor Lawrence"]
                    )
 
