@@ -1,9 +1,9 @@
 from fastai.tabular.all import *
 import gradio as gr
 
-path = Path()
+# path = Path()
 df = pd.read_csv("rookie_year.csv")
-learn = load_learner(path/"export.pkl")
+learn = load_learner("export.pkl")
 columns = ["Name", "G", "GS", "Cmp", "Att", "Yds", "Cmp%", "TD", "Int", "Y/G", "Sk"]
 
 def predict(data):
