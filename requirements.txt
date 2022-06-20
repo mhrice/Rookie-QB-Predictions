@@ -70,7 +70,6 @@ pypiwin32
 PyYAML==6.0
 scikit-learn==1.1.1
 scipy==1.8.1
-sip==4.19.13
 smart-open==5.2.1
 sniffio==1.2.0
 spacy==3.3.0
