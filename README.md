@@ -29,6 +29,8 @@ First I tested out decision trees/random forests, but found that they tended to 
 I then tested fastai's Tabular model which performed much better and would have a larger variety of predictions. 
 
 
+<img width="935" alt="Hugging Face Spaces" src="https://user-images.githubusercontent.com/18355302/174906518-7fa50137-326d-4250-a454-015be3849891.png">
+
 
 
 Hugging Face config:
