@@ -17,7 +17,9 @@ There's also a separate [demo](https://huggingface.co/spaces/mattricesound/Rooki
 I've noticed that it performs very poorly if you give it terrible stats, since it was trained on QBs with some baseline stats.
 
 Data from [Pro Football Reference](https://www.pro-football-reference.com/)
+
 Model built with [fastai](https://www.fast.ai/)
+
 Demo built with [Gradio](https://gradio.app/)
 
 ## Dataset
