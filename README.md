@@ -34,6 +34,7 @@ I then tested fastai's [Tabular model](https://docs.fast.ai/tabular.model.html) 
 
 ## Demo
 Demo1: https://huggingface.co/spaces/mattricesound/Rookie-QB-Predictions-Name
+
 Demo2: https://huggingface.co/spaces/mattricesound/Rookie-QB-Predictions-Stats
 <img width="935" alt="Hugging Face Spaces" src="https://user-images.githubusercontent.com/18355302/174906518-7fa50137-326d-4250-a454-015be3849891.png">
 
