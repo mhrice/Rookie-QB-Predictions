@@ -32,6 +32,7 @@ The goal is to train a model to accuratly predict a QB's tier given their select
 First I tested out decision trees/random forests, but found that they tended to place all the QBs in the middle tier and get decent accuracy. 
 I then tested fastai's [Tabular model](https://docs.fast.ai/tabular.model.html) which performed much better and would have a larger variety of predictions. 
 
+## Demo
 
 <img width="935" alt="Hugging Face Spaces" src="https://user-images.githubusercontent.com/18355302/174906518-7fa50137-326d-4250-a454-015be3849891.png">
 
